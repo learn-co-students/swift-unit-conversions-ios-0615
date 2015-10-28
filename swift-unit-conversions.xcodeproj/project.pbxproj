@@ -78,11 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				4DBCC8CC1BE114CE0050FC4E /* AppDelegate.swift */,
-				4DBCC8CE1BE114CE0050FC4E /* ViewController.swift */,
-				4DBCC8D01BE114CE0050FC4E /* Main.storyboard */,
-				4DBCC8D31BE114CE0050FC4E /* Assets.xcassets */,
-				4DBCC8D51BE114CE0050FC4E /* LaunchScreen.storyboard */,
-				4DBCC8D81BE114CE0050FC4E /* Info.plist */,
+				4DBCC8EC1BE114E10050FC4E /* Resources */,
 			);
 			path = "swift-unit-conversions";
 			sourceTree = "<group>";
@@ -94,6 +90,18 @@
 				4DBCC8E31BE114CE0050FC4E /* Info.plist */,
 			);
 			path = "swift-unit-conversionsTests";
+			sourceTree = "<group>";
+		};
+		4DBCC8EC1BE114E10050FC4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4DBCC8CE1BE114CE0050FC4E /* ViewController.swift */,
+				4DBCC8D01BE114CE0050FC4E /* Main.storyboard */,
+				4DBCC8D31BE114CE0050FC4E /* Assets.xcassets */,
+				4DBCC8D51BE114CE0050FC4E /* LaunchScreen.storyboard */,
+				4DBCC8D81BE114CE0050FC4E /* Info.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

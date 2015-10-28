@@ -13,6 +13,8 @@
 		4DBCC8D41BE114CE0050FC4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBCC8D31BE114CE0050FC4E /* Assets.xcassets */; };
 		4DBCC8D71BE114CE0050FC4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBCC8D51BE114CE0050FC4E /* LaunchScreen.storyboard */; };
 		4DBCC8E21BE114CE0050FC4E /* swift_unit_conversionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCC8E11BE114CE0050FC4E /* swift_unit_conversionsTests.swift */; };
+		4DBCC8EE1BE1189E0050FC4E /* Sandbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCC8ED1BE1189E0050FC4E /* Sandbox.swift */; };
+		4DBCC8F01BE119160050FC4E /* SandboxSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCC8EF1BE119160050FC4E /* SandboxSpec.swift */; };
 		EB65C23730C4C4E85030DADF /* Pods_swift_unit_conversionsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8420954F837125BCCEAB704D /* Pods_swift_unit_conversionsTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		4DBCC8DD1BE114CE0050FC4E /* swift-unit-conversionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-unit-conversionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DBCC8E11BE114CE0050FC4E /* swift_unit_conversionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_unit_conversionsTests.swift; sourceTree = "<group>"; };
 		4DBCC8E31BE114CE0050FC4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DBCC8ED1BE1189E0050FC4E /* Sandbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sandbox.swift; path = ../Sandbox.swift; sourceTree = "<group>"; };
+		4DBCC8EF1BE119160050FC4E /* SandboxSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandboxSpec.swift; sourceTree = "<group>"; };
 		8420954F837125BCCEAB704D /* Pods_swift_unit_conversionsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_unit_conversionsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		991999CE45FE59053559D327 /* Pods-swift-unit-conversionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-unit-conversionsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-unit-conversionsTests/Pods-swift-unit-conversionsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE5272B65A19BDA513060658 /* Pods-swift-unit-conversionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-unit-conversionsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-unit-conversionsTests/Pods-swift-unit-conversionsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				4DBCC8CC1BE114CE0050FC4E /* AppDelegate.swift */,
+				4DBCC8ED1BE1189E0050FC4E /* Sandbox.swift */,
 				4DBCC8EC1BE114E10050FC4E /* Resources */,
 			);
 			path = "swift-unit-conversions";
@@ -93,6 +98,7 @@
 		4DBCC8E01BE114CE0050FC4E /* swift-unit-conversionsTests */ = {
 			isa = PBXGroup;
 			children = (
+				4DBCC8EF1BE119160050FC4E /* SandboxSpec.swift */,
 				4DBCC8E11BE114CE0050FC4E /* swift_unit_conversionsTests.swift */,
 				4DBCC8E31BE114CE0050FC4E /* Info.plist */,
 			);
@@ -281,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DBCC8CF1BE114CE0050FC4E /* ViewController.swift in Sources */,
+				4DBCC8EE1BE1189E0050FC4E /* Sandbox.swift in Sources */,
 				4DBCC8CD1BE114CE0050FC4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBCC8F01BE119160050FC4E /* SandboxSpec.swift in Sources */,
 				4DBCC8E21BE114CE0050FC4E /* swift_unit_conversionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

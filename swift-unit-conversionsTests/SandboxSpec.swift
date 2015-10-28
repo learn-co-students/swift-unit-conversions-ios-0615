@@ -9,19 +9,19 @@ class SandboxSpec: QuickSpec {
         describe("Sandbox") {
             let margin = 0.00001
             
-            describe("fahrenheitFromCelcius") {
+            describe("fahrenheitFromCelsius") {
                 it("should convert 0 C to 32 F") {
                     let freezingC = 0.0
                     let freezingF = 32.0
                     
-                    expect(fahrenheitFromCelcius(freezingC)).to(beCloseTo(freezingF, within: margin))
+                    expect(fahrenheitFromCelsius(freezingC)).to(beCloseTo(freezingF, within: margin))
                 }
                 
                 it("should convert 100 C to 212 F") {
                     let boilingC = 100.0
                     let boilingF = 212.0
                     
-                    expect(fahrenheitFromCelcius(boilingC)).to(beCloseTo(boilingF, within: margin))
+                    expect(fahrenheitFromCelsius(boilingC)).to(beCloseTo(boilingF, within: margin))
                 }
             }
             
@@ -30,14 +30,14 @@ class SandboxSpec: QuickSpec {
                     let bodyTempF = 98.6
                     let bodyTempC = 37.0
                     
-                    expect(celciusFromFahrenheit(bodyTempF)).to(beCloseTo(bodyTempC, within: margin))
+                    expect(celsiusFromFahrenheit(bodyTempF)).to(beCloseTo(bodyTempC, within: margin))
                 }
                 
                 it("should convert 72.0 F to 22.22~ C") {
                     let outsideTempF = 72.0
                     let outsideTempC = 22.22222222222222
                     
-                    expect(celciusFromFahrenheit(outsideTempF)).to(beCloseTo(outsideTempC, within: margin))
+                    expect(celsiusFromFahrenheit(outsideTempF)).to(beCloseTo(outsideTempC, within: margin))
                 }
             }
             
@@ -85,7 +85,7 @@ class SandboxSpec: QuickSpec {
                     // source: https://en.wikipedia.org/wiki/Autobahn
                     
                     let autobahnNetwork2013Km = 12917.0
-                    let autobahnNetwork2013Miles = 8026.271639
+                    let autobahnNetwork2013Miles = 8026.271
                     
                     expect(milesFromKilometers(autobahnNetwork2013Km)).to(beCloseTo(autobahnNetwork2013Miles, within: 0.01))
                 }

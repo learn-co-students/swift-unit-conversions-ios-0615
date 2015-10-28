@@ -8,11 +8,11 @@ import Foundation
 
 */
 
-func fahrenheitFromCelcius(celcius: Double) -> Double {
-    return (celcius * 9/5) + 32
+func fahrenheitFromCelsius(celsius: Double) -> Double {
+    return (celsius * 9/5) + 32
 }
 
-func celciusFromFahrenheit(fahrenheit: Double) -> Double {
+func celsiusFromFahrenheit(fahrenheit: Double) -> Double {
     return (fahrenheit - 32) * 5/9
 }
 

@@ -50,8 +50,8 @@ The United States, Liberia, and Burma are the only three countries in the world 
 
 #### `milesFromKilometers()`
 
-Write a function named `milesFromKilometers()` which converts a parameter in Kilometers (Km) to a result in miles (mi).
+Write a function named `milesFromKilometers()` which converts an argument in Kilometers (Km) to a result in miles (mi).
 
 #### `kilometersFromMiles()`
 
-Write another function named `kilometersFromMiles()` which converts a parameter in miles (mi) to a result in kilometers (Km).
+Write another function named `kilometersFromMiles()` which converts an argument in miles (mi) to a result in kilometers (Km).

@@ -39,7 +39,7 @@
 		4DBCC8DD1BE114CE0050FC4E /* swift-unit-conversionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-unit-conversionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DBCC8E11BE114CE0050FC4E /* swift_unit_conversionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_unit_conversionsTests.swift; sourceTree = "<group>"; };
 		4DBCC8E31BE114CE0050FC4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DBCC8ED1BE1189E0050FC4E /* Sandbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sandbox.swift; path = ../Sandbox.swift; sourceTree = "<group>"; };
+		4DBCC8ED1BE1189E0050FC4E /* Sandbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sandbox.swift; sourceTree = "<group>"; };
 		4DBCC8EF1BE119160050FC4E /* SandboxSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandboxSpec.swift; sourceTree = "<group>"; };
 		8420954F837125BCCEAB704D /* Pods_swift_unit_conversionsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_unit_conversionsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		991999CE45FE59053559D327 /* Pods-swift-unit-conversionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-unit-conversionsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-unit-conversionsTests/Pods-swift-unit-conversionsTests.debug.xcconfig"; sourceTree = "<group>"; };

@@ -7,21 +7,20 @@ import Nimble
 class SandboxSpec: QuickSpec {
     override func spec() {
         describe("Sandbox") {
-            let margin = 0.00001
             
             describe("fahrenheitFromCelsius") {
                 it("should convert 0 C to 32 F") {
                     let freezingC = 0.0
                     let freezingF = 32.0
                     
-                    expect(fahrenheitFromCelsius(freezingC)).to(beCloseTo(freezingF, within: margin))
+                    expect(fahrenheitFromCelsius(freezingC)) ≈ freezingF
                 }
                 
                 it("should convert 100 C to 212 F") {
                     let boilingC = 100.0
                     let boilingF = 212.0
                     
-                    expect(fahrenheitFromCelsius(boilingC)).to(beCloseTo(boilingF, within: margin))
+                    expect(fahrenheitFromCelsius(boilingC)) ≈ boilingF
                 }
             }
             
@@ -30,14 +29,14 @@ class SandboxSpec: QuickSpec {
                     let bodyTempF = 98.6
                     let bodyTempC = 37.0
                     
-                    expect(celsiusFromFahrenheit(bodyTempF)).to(beCloseTo(bodyTempC, within: margin))
+                    expect(celsiusFromFahrenheit(bodyTempF)) ≈ bodyTempC
                 }
                 
                 it("should convert 72.0 F to 22.22~ C") {
                     let outsideTempF = 72.0
                     let outsideTempC = 22.22222222222222
                     
-                    expect(celsiusFromFahrenheit(outsideTempF)).to(beCloseTo(outsideTempC, within: margin))
+                    expect(celsiusFromFahrenheit(outsideTempF)) ≈ outsideTempC
                 }
             }
             
@@ -46,14 +45,14 @@ class SandboxSpec: QuickSpec {
                     let rightAngleDeg = 90.0
                     let rightAngleRad = 1.570796326794897
 
-                    expect(radiansFromDegrees(rightAngleDeg)).to(beCloseTo(rightAngleRad, within: margin))
+                    expect(radiansFromDegrees(rightAngleDeg)) ≈ rightAngleRad
                 }
                 
                 it("should convert 360 degrees to 6.28~ radians") {
                     let fullCircleDeg = 360.0
                     let fullCircleRad = 6.283185307179586
                     
-                    expect(radiansFromDegrees(fullCircleDeg)).to(beCloseTo(fullCircleRad, within: margin))
+                    expect(radiansFromDegrees(fullCircleDeg)) ≈ fullCircleRad
                 }
             }
             
@@ -62,14 +61,14 @@ class SandboxSpec: QuickSpec {
                     let halfCircleRad = M_PI
                     let halfCircleDeg = 180.0
                     
-                    expect(degreesFromRadians(halfCircleRad)).to(beCloseTo(halfCircleDeg, within: margin))
+                    expect(degreesFromRadians(halfCircleRad)) ≈ halfCircleDeg
                 }
                 
                 it("should convert 2 radians to 114.6~ degrees") {
                     let twoRad = 2.0
                     let twoRadDegrees = 114.5915590261646
                     
-                    expect(degreesFromRadians(twoRad)).to(beCloseTo(twoRadDegrees, within: margin))
+                    expect(degreesFromRadians(twoRad)) ≈ twoRadDegrees
                 }
             }
 
@@ -78,7 +77,7 @@ class SandboxSpec: QuickSpec {
                     let fiveKm = 5.0
                     let fiveKmMiles = 3.106863683249034
                     
-                    expect(milesFromKilometers(fiveKm)).to(beCloseTo(fiveKmMiles, within: margin))
+                    expect(milesFromKilometers(fiveKm)) ≈ fiveKmMiles
                 }
                 
                 it("should convert 12917 Km to 8026.27~ miles") {
@@ -96,14 +95,14 @@ class SandboxSpec: QuickSpec {
                     let marathonMiles = 26.2
                     let marathonKm = 42.164708
                     
-                    expect(kilometersFromMiles(marathonMiles)).to(beCloseTo(marathonKm, within: margin))
+                    expect(kilometersFromMiles(marathonMiles)) ≈ marathonKm
                 }
                 
                 it("should convert 500 miles to 804.67 Km") {
                     let fiveHundredMiles = 500.0
                     let fiveHundredMilesKm = 804.67
                     
-                    expect(kilometersFromMiles(fiveHundredMiles)).to(beCloseTo(fiveHundredMilesKm, within: margin))
+                    expect(kilometersFromMiles(fiveHundredMiles)) ≈ fiveHundredMilesKm
                 }
             }
         }

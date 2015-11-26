@@ -22,15 +22,15 @@ The United States still widely uses the [Fahrenheit system](https://en.wikipedia
   * 212 degrees Fahrenheit and
   * 100 degrees Celsius.
 
-The means that there is a 32 degree (Fahrenheit) offset between the systems, and ratio of 180 degrees Fahrenheit to 100 degrees Celcius—this ratio reduces to the fraction 9/5.
-
 #### `fahrenheitFromCelsius(_:)`
 
-Write a function named `fahrenheitFromCelsius(_:)` which converts an argument in degrees Celsius to a result in degrees Fahrenheit.
+Write a function named `fahrenheitFromCelsius(_:)` which converts a `Double` argument in degrees Celsius to a `Double` result in degrees Fahrenheit.
 
 #### `celsiusFromFahrenheit(_:)`
 
-Write another function named `celsiusFromFahrenheit(_:)` which converts an argument in degrees Fahrenheit to a result in degrees Celsius.
+Write another function named `celsiusFromFahrenheit(_:)` which converts a `Double` argument in degrees Fahrenheit to a `Double` result in degrees Celsius.
+
+**Hint:** *The means that there is a 32 degree (Fahrenheit) offset between the systems, and ratio of 180 degrees Fahrenheit to 100 degrees Celsius—this ratio reduces to the fraction 9/5.*
 
 ### II. Circles
 
@@ -38,20 +38,24 @@ Circular arcs can be measured in either angular degrees or in radians. There are
 
 #### `radiansFromDegrees(_:)`
 
-Write a function named `radiansFromDegrees(_:)` which converts an argument in angular degrees to a result in radians.
+Write a function named `radiansFromDegrees(_:)` which converts a `Double` argument in angular degrees to a `Double` result in radians.
 
 #### `degreesFromRadians(_:)`
 
-Write another function named `degreesFromRadians(_:)` which converts an argument in radians to a result in angular degrees.
+Write another function named `degreesFromRadians(_:)` which converts a `Double` argument in radians to a `Double` result in angular degrees.
+
+**Hint:** degrees / 180 * pi = radians
 
 ### III. Distance
 
-The United States, Liberia, and Burma are the only three countries in the world which still use [Imperial Units](https://en.wikipedia.org/wiki/Imperial_units) in favor of the [Metric System](https://en.wikipedia.org/wiki/Metric_system) to measure distance. Miles (mi) and Kilometers (Km) are similarly scaled measures of distance across the two systems. There are approximately 1.60934 Kilometers in one mile.
+The United States, Liberia, and Burma are the only three countries in the world which still use [Imperial Units](https://en.wikipedia.org/wiki/Imperial_units) in favor of the [Metric System](https://en.wikipedia.org/wiki/Metric_system) to measure distance. Miles (mi) and Kilometers (Km) are similarly scaled measures of distance across the two systems.
 
 #### `milesFromKilometers(_:)`
 
-Write a function named `milesFromKilometers(_:)` which converts an argument in Kilometers (Km) to a result in miles (mi).
+Write a function named `milesFromKilometers(_:)` which converts a `Double` argument in Kilometers (Km) to a `Double` result in miles (mi).
 
 #### `kilometersFromMiles(_:)`
 
-Write another function named `kilometersFromMiles(_:)` which converts an argument in miles (mi) to a result in kilometers (Km).
+Write another function named `kilometersFromMiles(_:)` which converts a `Double` argument in miles (mi) to a `Double` result in kilometers (Km).
+
+**Hint:** *There are approximately 1.60934 Kilometers in one mile.*

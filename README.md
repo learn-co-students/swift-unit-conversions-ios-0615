@@ -59,3 +59,4 @@ Write a function named `milesFromKilometers(_:)` which converts a `Double` argum
 Write another function named `kilometersFromMiles(_:)` which converts a `Double` argument in miles (mi) to a `Double` result in kilometers (Km).
 
 **Hint:** *There are approximately 1.60934 Kilometers in one mile.*
+<a href='https://learn.co/lessons/swift-unit-conversions' data-visibility='hidden'>View this lesson on Learn.co</a>
